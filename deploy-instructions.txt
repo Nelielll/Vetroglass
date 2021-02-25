@@ -1,0 +1,2 @@
+./node_modules/@angular/cli/bin/ng build --progress false --prod
+./surge -p dist/vetroglass --domain vetroglass.ro

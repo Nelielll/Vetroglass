@@ -1,0 +1,48 @@
+<!-- Sticla -->
+<div class="container">
+    <div align="center" class="subtitle">
+        Geamuri și sticlă
+    </div>
+
+    <div align="center" class="description">
+        <p align="center">Producem și comercializăm geamuri termoizolante, reflexive, antiefracție, sticlă bombată, sablată și personalizată.
+            <br>Realizăm sablare personalizată cu oxid de aluminiu.</p>
+    </div>
+</div>
+
+<div class="image-container">
+    <drag-scroll class="image-container">
+        <div *ngFor="let service of service_data">
+            <div drag-scroll-item routerLink="{{service.route}}" class="image-container-text">
+                <div class="service">
+                    <img class="service-image" src='../../assets/images/servicii/{{service.image}}.jpg' />
+                </div>
+                <div class="centered"> {{service.title}} </div>
+            </div>
+        </div>
+    </drag-scroll>
+</div>
+
+<!-- Mobilier -->
+<div class="container">
+    <div align="center" class="subtitle">
+        Pentru mobilier
+    </div>
+    <div align="center" class="description">
+        <p align="center">
+            Producem și livrăm oglinzi, placări și <br> sticlă pentru mobilier, uși sau compartimentări.</p>
+    </div>
+</div>
+
+<div class="image-container">
+    <drag-scroll class="image-container">
+        <div *ngFor="let service of service_data_furniture">
+            <div drag-scroll-item routerLink="{{service.route}}" class="image-container-text">
+                <div class="service">
+                    <img class="service-image" src='../../assets/images/servicii/furniture/{{service.image}}.jpg' />
+                </div>
+                <div class="centered"> {{service.title}} </div>
+            </div>
+        </div>
+    </drag-scroll>
+</div>

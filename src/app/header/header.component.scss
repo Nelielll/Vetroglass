@@ -1,0 +1,83 @@
+::ng-deep .navigation-tabs .mat-tab-label-container {
+    display: none;
+}
+
+.vertical-align-text {
+    padding-top: 2.5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 3;
+    padding: 0;
+    opacity: 0.6;
+    top: 0;
+    height: 8%;
+    background-color: white;
+    border-bottom: 1px solid #e8eaed;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15%;
+}
+
+.title {
+    color: black;
+    margin-left: 3rem;
+    float: left;
+    cursor: pointer;
+    font-size: 45px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.mat-menu-content {
+    background-color: black !important;
+}
+
+mat-menu {
+    color: black !important;
+}
+
+.mat-menu-item {
+    color: black !important;
+}
+
+.header-item.mat-menu-item:hover {
+    color: black !important;
+}
+
+.header-item {
+    // margin-right: 5px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Tenor Sans", sans-serif;
+}
+
+.header-item:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 10%;
+    position: absolute;
+    background-color: #c19c78;
+    transition: width 0.4s ease 0s, left 0.4s ease 0s;
+    width: 0;
+}
+
+.header-item:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.fill-remaining-space {
+    flex: 1 1 auto;
+}

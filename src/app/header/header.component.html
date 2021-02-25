@@ -1,0 +1,21 @@
+<mat-toolbar class="header">
+    <div class="title" routerLink="/home">Vetroglass</div>
+    <!-- <div class="fill-remaining-space"></div> -->
+    <div>
+        <div class="header-buttons" fxHide.xs>
+            <button class="header-item" mat-button routerLink="/acasa">ACASĂ</button>
+            <button class="header-item" mat-button routerLink="/servicii">SERVICII</button>
+            <button class="header-item" mat-button routerLink="/catalog">CATALOG</button>
+            <button class="header-item" mat-button routerLink="/contact">CONTACT</button>
+        </div>
+        <button mat-button [mat-menu-trigger-for]="menu" fxHide.gt-xs>
+            <mat-icon>menu</mat-icon>
+            <mat-menu #menu>
+                <button class="header-item" mat-menu-item routerLink="/acasa">ACASĂ</button>
+        <button class="header-item" mat-menu-item routerLink="/servicii">SERVICII</button>
+        <button class="header-item" mat-menu-item routerLink="/catalog">CATALOG</button>
+        <button class="header-item" mat-menu-item routerLink="/contact">CONTACT</button>
+        </mat-menu>
+        </button>
+    </div>
+</mat-toolbar>

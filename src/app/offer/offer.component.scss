@@ -1,0 +1,28 @@
+.description {
+    font-size: 25px;
+    margin: 0 auto;
+    outline: none;
+    text-align: justify;
+    padding-bottom: 5rem;
+    width: 100%;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.container {
+    font-family: "Google Sans", Arial, sans-serif;
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 5rem;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
