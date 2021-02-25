@@ -1,0 +1,11 @@
+{
+    "cookie": {
+        "header": "Folosim Cookie-uri pe acest website!",
+        "message": "Acest website foloseste cookie-uri pentru a asigura cea mai buna experiență utilizatorilor.",
+        "dismiss": "Am înțeles!",
+        "allow": "Permite Cookie-uri",
+        "deny": "Refuză",
+        "link": "Mai multe informații",
+        "policy": "Politica Cookie"
+    }
+}
